@@ -43,7 +43,7 @@ clientdb
 
 app.get("/", (req, res, next) => {
   client.set("products", "products....");
-  res.send("<h1> Hello zaher dasd  </h1>");
+  res.send("<h1> Hello zaher from railway + docjer hub  </h1>");
 });
 app.get("/data", async (req, res, next) => {
   const products = await client.get("products");
